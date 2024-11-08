@@ -1,16 +1,17 @@
-body{
-    background-color: rgb(4, 4, 65);
-    text-align: center;
+.color{
+    color: green;
+}
+.col2{
+    color:red;
+}
+.col3{
+    color: yellow;
+}
+.grey{
+    color: grey;
+}
+.tesla{
+    background-color: green;
+   
+}
 
-}
-.red{
-    border: yellow;
-    color: white;
-}
-.no{
-    color: white;
-    background-color: yellow;
-    border-radius: 10px;
-    font-size: 20px;
-    text-align: center;
-}
