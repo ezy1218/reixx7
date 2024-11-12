@@ -1,17 +1,35 @@
-.color{
-    color: green;
+.verh{
+    width: 1200px;
+    border: 2px solid white;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 33px;
+    color: black;
 }
-.col2{
-    color:red;
+.centr{
+    text-align: center;
+    margin: 100px;
+    font-size: 50px;
 }
-.col3{
-    color: yellow;
+.main{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
 }
-.grey{
-    color: grey;
-}
-.tesla{
-    background-color: green;
-   
-}
-
+    .box{
+    width:300px ;
+    height: 300px;
+    border: 2px solid red;
+    background-color: red;
+    }
+    .name{
+        color: white;
+        font-size: 50px;
+       display: flex;
+       
+        
+    }
