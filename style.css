@@ -1,45 +1,31 @@
+.main{
+    width: 1000px;
+    height: 900;
+   display: flex;
+   /* justify-content: start; */
+   /* justify-content: end; */
+   /* justify-content: space-around; */
+   /* justify-content: space-between; */
+   justify-content: space-evenly;
+   /* align-items: center; */
+   flex-wrap: wrap;
+   gap: 50px;
+   
+   
+}
 .box{
-    color: white;
-    background-color: saddlebrown;
-    box-sizing: border-box;
-    text-align: center;
-    margin: auto;
-    width: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 8px;
+}
+.boxcha{
+    width: 50px;
     height: 50px;
-    font-size: 30px;
-    }
-    .haf{
-    border: 6px red solid;
-    background-color: black;
-    width: 800px;
-    height:450px ;
-    margin: auto;
-    margin-top: 60px;
-    }
-    .yt{
-    color: black;
-    background-color:aqua;
-    width: 750px;
-    height: 180px;
-    margin: auto;
-    margin-top: 30px;
-    font-size:25px;
-    
-    box-sizing: border-box;
-    padding: auto;
-    }
-    .ot{
-        color: black;
-        background-color:aqua;
-        width: 750px;
-        height: 170px;
-        margin: auto;
-        margin-bottom: 30px;
-        margin-top: 25px;
-        font-size:25px;
-        
-        box-sizing: border-box;
-        padding: auto;
-    
-    
-    }
+    background-color: orange;
+    display: flex;
+    gap: 17px;
+}
