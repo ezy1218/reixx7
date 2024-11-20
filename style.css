@@ -1,31 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .main{
-    width: 1000px;
-    height: 900;
-   display: flex;
-   /* justify-content: start; */
-   /* justify-content: end; */
-   /* justify-content: space-around; */
-   /* justify-content: space-between; */
-   justify-content: space-evenly;
-   /* align-items: center; */
-   flex-wrap: wrap;
-   gap: 50px;
-   
-   
+    width: 1160px;
+    height: 900px;
+    background-color: #343C56;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 58px;
+    padding: 0 84px;
 }
-.box{
+.menu{
+    width: 100%;
+    border: 2px solid blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 0;
+         
+}
+.element{
     width: 200px;
-    height: 200px;
-    background-color: plum;
-    display: flex;
-    flex-wrap: wrap;
-    
-    gap: 8px;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+    border-radius: 30px;
 }
-.boxcha{
-    width: 50px;
-    height: 50px;
-    background-color: orange;
+.media{
     display: flex;
-    gap: 17px;
+    justify-content: space-between;
+}
+.text{
+    width: 264px;
+    height: 118px;
+    color: white;
+    background-color: black;
+    text-align: center;
+   border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centralniytext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 118px;
+
+}
+.textbolshoy{
+    width: 400px;
+    height: 270px;
+    top: 500px;
+    left: 220px;
+    border: 50px solid red;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color:#61FF00;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.texti{
+    display: flex;
+    justify-content: space-between;
 }
